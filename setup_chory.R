@@ -1,7 +1,7 @@
 setup_chory <- function(set_wd = TRUE) {
   # Call Necessary Libraries ----------------------------------------------
   pkgs = c("data.table", "dplyr", "R.utils", "reshape", "reshape2", "jsonlite","tidyr", 
-           "tidyverse", "cowplot", "scales", 
+           "tidyverse", "cowplot", "scales", "BiocManager", 
            "stringr","chron", "zoo","RSQLite", "dplyr", "ggplot2", "rstudioapi", "data.table", 
            "stringr", "chron", "zoo", "sendmailR", "cowplot", "RCurl", "tidyr", "lubridate", "collapse",
            "readr", "scales", "cowplot", "googlesheets4", "DBI","RPostgres", "odbc", "DBI", "dplyr", "tidyr", "patchwork")
